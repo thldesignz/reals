@@ -1,0 +1,32 @@
+.navbar2{
+    padding: 0 100px;
+    background: rgba(3, 20, 55, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar2 .navbar-brand img{
+    width: 10%;
+    height: 70px;
+    
+}
+.navbar2 .nav-link{
+    color: #ffffff;
+}
+.navbar2 .nav-link:hover{
+    color: #4d94ea;
+}
+.navbar2 .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar2 .fa-bars{
+    color: #4d94ea;
+    font-size: 1.7rem;
+}
+.navbar2 .nav-link.active{
+    color: #4d94ea;
+}
